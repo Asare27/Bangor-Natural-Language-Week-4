@@ -20,6 +20,7 @@ import gensim                               # to access Word2Vec
 # to access Gensim's flavor of Word2Vec
 from gensim.models import Word2Vec
 import pandas as pd                         # to sort and organize data
+import random                               # Importng the random library
 
 # get file path (you can change this)
 dirpath = r'ViralTexts-nineteenth-century-recipes-plaintext'
@@ -48,9 +49,19 @@ for filename in filenames:
         afile.close()  # close the file when you're done
 
 # Printing Out the first file from the cookbooks recipe
-print("\n Printing Out the First file from the Cookbooks")
-# print(data[0:10])
+print("\n Printing Out three Random files from the Cookbooks")
+print(data[0:10])
 print(data[0])
+
+# Printing out 3 random files from the Cookbooks
+
+if len(data) > 3:
+    random_indices = random.sample(range(1, len(data)), 3)
+    for i, idx in enumerate(random_indices, 1):
+        print(f"\nRandom file {i} loaded: {filenames[idx]}")
+        print(data[idx])
+else:
+    print("Not enough files to print three random samples.")
 
 # def clean_text(text):
 

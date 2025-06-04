@@ -1,0 +1,17 @@
+,Model,Test Words,Cosine Similarity
+0,word2vec.model,"('stir', 'whisk')",0.68710256
+1,word2vec.model,"('cream', 'milk')",0.9203188
+2,word2vec.model,"('cake', 'muffin')",0.6201607
+3,word2vec.model,"('jam', 'jelly')",0.76426166
+4,word2vec.model,"('reserve', 'save')",0.90606934
+5,word2vec.model,"('bake', 'cook')",0.6426214
+6,word2vec.model,"('sugar', 'honey')",0.69674355
+7,word2vec.model,"('flour', 'bread')",0.596264
+8,word2vec.model,"('egg', 'yolk')",0.8053141
+9,word2vec.model,"('roast', 'boil')",0.4114797
+10,word2vec.model,"('knife', 'cut')",0.47417894
+11,word2vec.model,"('pan', 'oven')",0.6035939
+12,word2vec.model,"('butter', 'cream')",0.6635005
+13,word2vec.model,"('potato', 'carrot')",0.9232456
+14,word2vec.model,"('slice', 'chop')",0.80369544
+15,word2vec.model,"('sauce', 'gravy')",0.6097128
